@@ -32,6 +32,7 @@ for (const server of config.servers) {
 
 	for (let i = offset; i < server.puppetCount + offset; i++) {
 		const client = new NodeIRC.Client(server.domain, namesList[i], {
+			realName: namesList[i],
 			channels: server.channels,
 			port: server.port,
 			autoConnect: true,
