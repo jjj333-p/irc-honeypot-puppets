@@ -1,0 +1,15 @@
+# add an entry per server
+servers:
+    #domain to use A(AAAAA) record of
+  - domain: irc.telepath.im
+    #port to connect on, defaults to 6667 iirc
+    port: 6697
+    #use a secure connection?
+    tls: true
+    #dm this user when a puppet is successfully connected. cannot be a channel. leave empty to disable
+    dmWhenOnline: "jjj333_p"
+    #how many puppets to use on this server
+    puppetCount: 15
+    #channels for puppets on this server to join
+    channels:
+      - "#home"

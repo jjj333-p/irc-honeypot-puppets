@@ -1,0 +1,31 @@
+{
+	"name": "honeypot",
+	"version": "0.0.1",
+	"description": "creates puppets to sit in irc channels",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jjj333-p/irc-honeypot.git"
+	},
+	"keywords": [
+		"irc",
+		"honeypot",
+		"bot",
+		"js",
+		"nodejs"
+	],
+	"author": "jjj333-p",
+	"license": "AGPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/jjj333-p/irc-honeypot/issues"
+	},
+	"homepage": "https://github.com/jjj333-p/irc-honeypot#readme",
+	"type": "module",
+	"dependencies": {
+		"irc": "^0.5.2",
+		"yaml": "^2.6.1"
+	}
+}
